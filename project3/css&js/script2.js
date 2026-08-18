@@ -32,3 +32,6 @@ cars.unshift("maruti")//adding in start
 console.log(cars)
 cars.shift()//removing at start
 console.log(cars)
+
+
+
