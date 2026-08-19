@@ -71,9 +71,88 @@ for(let i=0; i<=3; i++){
 
     //for of loops
 
-    let fruits = ["banana", "leechi", "mango", "apple"]
+/*     let fruits = ["banana", "leechi", "mango", "apple"]
     for(fruit of fruits){
         console.log(fruit)
+    } */
+
+
+    // object is used to store key value pairs and complex entities
+    let student = {
+        name: "shradha",
+        age:12,
+        village:" hariyana",
+        colors: ["pink","red",2]
     }
+    console.log(student)
+
+    const thread = {
+        username: "awdheshmishra9",
+        content:"video",
+        likes:50,
+        reposts:23,
+        tags:"#karan #awdhesh"
+    }
+    console.log(thread)
+
+    //getting values of objects
+    console.log(student.colors)
+    console.log(thread["username"])
+
+    //add update the value
+    console.log(student.age)
+    student.age = 18
+    console.log(student.age)
+    console.log(thread.likes=500,thread.reposts=230)
+    console.log(student)
+    console.log(thread)
+    student.gender = "male"//adding
+    console.log(student)
+    console.log(delete student.age)
+
+    //array of objects
+
+    const classinfo = [
+        {
+        name:"karan",
+        grade:"A+",
+        city:"lucknow"
+        },
+         {
+        name:"Awdhesh",
+        grade:"A++",
+        city:"gkp"
+        },
+         {
+        name:"Mishra",
+        grade:"A+++",
+        city:"baliya"
+        }
+    ]
+    console.log(classinfo)
+
+    //math objects
+
+    let n = 5.09
+    let m = 3
+    console.log(Math.PI)
+    console.log(Math.cos(m))
+    console.log(Math.floor(n))
+    console.log(Math.SQRT2)
+    console.log(Math.pow(n,m))
+    console.log(Math.LOG2E)
+    console.log(Math.random())
+    console.log(Math.round(n))
+    console.log(Math.max(m,n))
+
+    console.log(Math.random()*100)+1
+    console.log(Math.random()*100)+2
+    console.log(Math.random()*100)+3
+    console.log(Math.random()*100)+4
+    console.log(Math.random()*100)+1
+    
+
+
+
 
 
