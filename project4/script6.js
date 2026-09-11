@@ -1,4 +1,4 @@
-function hell0(){
+/* function hell0(){
     for(let i=0;i<=5;i++)
     console.log("help",i)
 }
@@ -84,3 +84,4 @@ let greet = function(){
 }
 multiplegreet(greet,100)
 
+ */
